@@ -27,6 +27,40 @@
       "sourceScreenId": "app.login.logincool",
       "sourceAppId": "universaltemplates",
       "model": "login"
+    },
+    {
+      "id": "test",
+      "name": "test",
+      "sourceScreenId": "app.blank",
+      "sourceAppId": "_blank",
+      "model": "test"
+    },
+    {
+      "id": "viewissues",
+      "name": "viewIssues",
+      "sourceScreenId": "app.tableviewadvanced.tableviewadvancedcaptivating",
+      "sourceAppId": "universaltemplates",
+      "model": "viewissues"
+    },
+    {
+      "id": "jupitar",
+      "name": "jupitar",
+      "sourceScreenId": "app.blank",
+      "sourceAppId": "_blank"
+    },
+    {
+      "id": "test1",
+      "name": "test1",
+      "sourceScreenId": "app.home.homeconfident",
+      "sourceAppId": "universaltemplates",
+      "model": "test1"
+    },
+    {
+      "id": "venus",
+      "name": "venus",
+      "sourceScreenId": "app.listview.listviewcool",
+      "sourceAppId": "universaltemplates",
+      "model": "venus"
     }
   ],
   "sourceAppId": "_blank",

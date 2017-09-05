@@ -42,5 +42,50 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
+    }).state('app.test', {
+        views: {
+            app: {
+                controller: 'app_test',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.test');
+                }
+            }
+        }
+    }).state('app.viewissues', {
+        views: {
+            app: {
+                controller: 'app_viewissues',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.viewissues');
+                }
+            }
+        }
+    }).state('app.jupitar', {
+        views: {
+            app: {
+                controller: 'app_jupitar',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.jupitar');
+                }
+            }
+        }
+    }).state('app.test1', {
+        views: {
+            app: {
+                controller: 'app_test1',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.test1');
+                }
+            }
+        }
+    }).state('app.venus', {
+        views: {
+            app: {
+                controller: 'app_venus',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.venus');
+                }
+            }
+        }
     });
 });

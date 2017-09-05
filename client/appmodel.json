@@ -42,5 +42,146 @@
         }
       }
     }
+  },
+  "test": {
+    "type": "object",
+    "comment": "",
+    "properties": {
+      "issuesList": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
+            },
+            "severity": {
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
+            },
+            "summary": {
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
+            }
+          }
+        },
+        "update": {
+          "type": "none"
+        }
+      }
+    }
+  },
+  "viewissues": {
+    "type": "object",
+    "comment": "issueslist",
+    "properties": {
+      "issueslist": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
+            },
+            "summary": {
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
+            },
+            "status": {
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
+            },
+            "severity": {
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
+            },
+            "assignedto": {
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
+            },
+            "updated": {
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
+            }
+          }
+        },
+        "update": {
+          "type": "none"
+        }
+      }
+    }
+  },
+  "test1": {
+    "type": "object",
+    "comment": "",
+    "properties": {
+      "action1": {
+        "type": "action"
+      },
+      "action2": {
+        "type": "action"
+      },
+      "action3": {
+        "type": "action"
+      },
+      "action4": {
+        "type": "action"
+      },
+      "action5": {
+        "type": "action"
+      },
+      "action6": {
+        "type": "action"
+      }
+    }
+  },
+  "venus": {
+    "type": "object",
+    "comment": "ListView",
+    "properties": {
+      "listItems": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "string": {
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
+            },
+            "action": {
+              "type": "action"
+            },
+            "icon": {
+              "type": "string"
+            }
+          }
+        },
+        "update": {
+          "type": "none"
+        }
+      }
+    }
   }
 }
