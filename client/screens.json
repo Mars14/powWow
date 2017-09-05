@@ -54,6 +54,13 @@
       "sourceScreenId": "app.listview.listviewcool",
       "sourceAppId": "universaltemplates",
       "model": "venus"
+    },
+    {
+      "id": "login",
+      "name": "login",
+      "sourceScreenId": "app.login.logincool",
+      "sourceAppId": "universaltemplates",
+      "model": "login"
     }
   ],
   "sourceAppId": "_blank",
